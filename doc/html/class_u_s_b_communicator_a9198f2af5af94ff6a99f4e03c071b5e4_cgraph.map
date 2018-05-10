@@ -1,0 +1,8 @@
+<map id="USBCommunicator::send_key_event" name="USBCommunicator::send_key_event">
+<area shape="rect" id="node2" href="$usb__keyboard_8c.html#ad2873d2acd1b50480db8528e087eb9a1" title="usb_press" alt="" coords="227,56,310,83"/>
+<area shape="rect" id="node5" href="$usb__keyboard_8c.html#af2fec93142d1f3bf0007d1de07820fae" title="usb_release" alt="" coords="223,107,315,133"/>
+<area shape="rect" id="node3" href="$usb__keyboard_8c.html#ab5345b65483f6516b2269cc9209df3e0" title="usb_press_modifier_key" alt="" coords="370,5,533,32"/>
+<area shape="rect" id="node4" href="$usb__keyboard_8c.html#aaf987ca18572ae45ec25ca9016ff868d" title="usb_press_standard_key" alt="" coords="368,56,535,83"/>
+<area shape="rect" id="node6" href="$usb__keyboard_8c.html#ae7e26d2a2e31880fcfe3da2f7b2826ad" title="usb_release_modifier_key" alt="" coords="365,107,538,133"/>
+<area shape="rect" id="node7" href="$usb__keyboard_8c.html#a73690a8e0a46b932cb217270d8ab3b6c" title="usb_release_standard_key" alt="" coords="363,157,540,184"/>
+</map>

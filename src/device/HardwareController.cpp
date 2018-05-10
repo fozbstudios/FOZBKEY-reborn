@@ -1,6 +1,10 @@
 //  HardwareController.cpp
-//  Created by Will Yager on 7/3/13.
-//  Copyright (c) 2013 Will Yager. All rights reserved.
+
+// Copyright 2013-2014 Will Yager.
+// All rights reserved.
+// 
+// Modified 2018 Nicholas Kirkpatrick
+// 
 //  Controls hardware peripherals and sets the LEDs
 
 #include "device/HardwareController.h"

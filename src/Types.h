@@ -1,6 +1,10 @@
 //  BoolArray.h
-//  Created by Will Yager on 6/20/13.
-//  Copyright (c) 2013 Will Yager. All rights reserved.
+
+// Copyright 2013-2014 Will Yager.
+// All rights reserved.
+// 
+// Modified 2018 Nicholas Kirkpatrick
+// 
 
 #ifndef __keyboard2__Types__
 #define __keyboard2__Types__

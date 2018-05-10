@@ -1,7 +1,10 @@
 //  USBCommunicator.cpp
-//  Created by William Yager on 10/12/13.
-//  Copyright (c) 2013 Will Yager. All rights reserved.
-//  Responsible for communicating with the host PC (if one is attached)
+
+// Copyright 2013-2014 Will Yager.
+// All rights reserved.
+// 
+// Modified 2018 Nicholas Kirkpatrick
+// 
 
 #include "comms/USBCommunicator.h"
 extern "C"{
@@ -15,15 +18,10 @@ USBCommunicator::USBCommunicator(){
 
 //Sends all deltas in key_changes and slave_key_changes to the host PC.
 //Assumes the non-zero deltas are packed in the lowest indices
-uint8_t USBCommunicator::update(const KeysDelta& key_changes, const KeysDelta& slave_key_changes){
+uint8_t USBCommunicator::update(const KeysDelta& key_changes){
     uint8_t i = 0;
     while(key_changes.deltas[i].delta != 0){ 
         this->send_key_event(key_changes.deltas[i]);
-        i++;
-    }
-    i = 0;
-    while(slave_key_changes.deltas[i].delta != 0){
-        this->send_key_event(slave_key_changes.deltas[i]);
         i++;
     }
     usb_keyboard_send();

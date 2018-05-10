@@ -1,0 +1,22 @@
+<map id="main" name="main">
+<area shape="rect" id="node2" href="$class_hardware_controller.html#af4ad30ec953dcac05d288407cab94b76" title="HardwareController\l::update" alt="" coords="123,122,254,163"/>
+<area shape="rect" id="node8" href="$class_button_debouncer.html#a46a6ad9039faaed0ba12db46865fa186" title="ButtonDebouncer::update" alt="" coords="104,235,273,261"/>
+<area shape="rect" id="node10" href="$class_button_delta_detector.html#a54925ea5d2d3ce3fc1120848577eb869" title="ButtonDeltaDetector\l::update" alt="" coords="119,286,258,327"/>
+<area shape="rect" id="node11" href="$class_key_mapper.html#a54bf0e6dbdbef71276226a1d40d5bb2e" title="KeyMapper::resolve" alt="" coords="119,352,258,379"/>
+<area shape="rect" id="node12" href="$class_master_notifier.html#ac395caae585712d79db20e81bdb7cb5a" title="MasterNotifier::notify" alt="" coords="117,403,260,429"/>
+<area shape="rect" id="node3" href="$_hardware_controller_8cpp.html#a1b67a229f1df1cfcd71e0e4fee1d7951" title="pull_up_row" alt="" coords="366,5,457,32"/>
+<area shape="rect" id="node4" href="$_hardware_controller_8cpp.html#aa9556052e715740f1ee4ca0aeece6ced" title="pull_down_column" alt="" coords="347,56,475,83"/>
+<area shape="rect" id="node5" href="$_hardware_controller_8cpp.html#a6487ce3eff95d3c899401d488486e6c6" title="measure_row" alt="" coords="362,107,461,133"/>
+<area shape="rect" id="node6" href="$_hardware_controller_8cpp.html#aa49072a056acedc0ec8d45a99bb1c93b" title="reset_columns" alt="" coords="358,157,465,184"/>
+<area shape="rect" id="node7" href="$_hardware_controller_8cpp.html#ad9e85d22eb406dd33acdba98a8cd5f45" title="reset_rows" alt="" coords="369,208,454,235"/>
+<area shape="rect" id="node9" href="$class_debouncer_array.html#a89c51e8b0a92b2827f7f0fd43c275bdc" title="DebouncerArray::update" alt="" coords="330,259,493,285"/>
+<area shape="rect" id="node13" href="$class_u_s_b_communicator.html#aaf280cb21a711cc0e467aeca92bd641f" title="USBCommunicator::update" alt="" coords="321,403,501,429"/>
+<area shape="rect" id="node14" href="$class_u_s_b_communicator.html#a9198f2af5af94ff6a99f4e03c071b5e4" title="USBCommunicator::send\l_key_event" alt="" coords="549,366,719,407"/>
+<area shape="rect" id="node21" href="$usb__keyboard_8c.html#a0d455838fba2d2422077884e22e11915" title="usb_keyboard_send" alt="" coords="565,432,703,459"/>
+<area shape="rect" id="node15" href="$usb__keyboard_8c.html#ad2873d2acd1b50480db8528e087eb9a1" title="usb_press" alt="" coords="771,348,854,375"/>
+<area shape="rect" id="node18" href="$usb__keyboard_8c.html#af2fec93142d1f3bf0007d1de07820fae" title="usb_release" alt="" coords="767,399,859,425"/>
+<area shape="rect" id="node16" href="$usb__keyboard_8c.html#ab5345b65483f6516b2269cc9209df3e0" title="usb_press_modifier_key" alt="" coords="914,297,1077,324"/>
+<area shape="rect" id="node17" href="$usb__keyboard_8c.html#aaf987ca18572ae45ec25ca9016ff868d" title="usb_press_standard_key" alt="" coords="912,348,1079,375"/>
+<area shape="rect" id="node19" href="$usb__keyboard_8c.html#ae7e26d2a2e31880fcfe3da2f7b2826ad" title="usb_release_modifier_key" alt="" coords="909,399,1082,425"/>
+<area shape="rect" id="node20" href="$usb__keyboard_8c.html#a73690a8e0a46b932cb217270d8ab3b6c" title="usb_release_standard_key" alt="" coords="907,449,1084,476"/>
+</map>

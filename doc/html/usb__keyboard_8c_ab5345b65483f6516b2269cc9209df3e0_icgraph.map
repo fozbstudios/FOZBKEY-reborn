@@ -1,0 +1,7 @@
+<map id="usb_press_modifier_key" name="usb_press_modifier_key">
+<area shape="rect" id="node2" href="$usb__keyboard_8h.html#ad2873d2acd1b50480db8528e087eb9a1" title="usb_press" alt="" coords="216,13,299,39"/>
+<area shape="rect" id="node3" href="$class_u_s_b_communicator.html#a9198f2af5af94ff6a99f4e03c071b5e4" title="USBCommunicator::send\l_key_event" alt="" coords="347,5,516,47"/>
+<area shape="rect" id="node4" href="$class_u_s_b_communicator.html#aaf280cb21a711cc0e467aeca92bd641f" title="USBCommunicator::update" alt="" coords="564,13,744,39"/>
+<area shape="rect" id="node5" href="$class_master_notifier.html#ac395caae585712d79db20e81bdb7cb5a" title="MasterNotifier::notify" alt="" coords="792,13,935,39"/>
+<area shape="rect" id="node6" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="983,13,1033,39"/>
+</map>

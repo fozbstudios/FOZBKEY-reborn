@@ -1,0 +1,15 @@
+<map id="src/Types.h" name="src/Types.h">
+<area shape="rect" id="node2" href="$_master_notifier_8h.html" title="src/comms/MasterNotifier.h" alt="" coords="12,177,195,203"/>
+<area shape="rect" id="node5" href="$_u_s_b_communicator_8h.html" title="src/comms/USBCommunicator.h" alt="" coords="252,87,464,114"/>
+<area shape="rect" id="node7" href="$_hardware_controller_8h.html" title="src/device/HardwareController.h" alt="" coords="518,87,723,114"/>
+<area shape="rect" id="node9" href="$_button_debouncer_8h.html" title="src/hardware/ButtonDebouncer.h" alt="" coords="747,87,958,114"/>
+<area shape="rect" id="node11" href="$_button_delta_detector_8h.html" title="src/hardware/ButtonDelta\lDetector.h" alt="" coords="1042,80,1210,121"/>
+<area shape="rect" id="node13" href="$_key_mapper_8h.html" title="src/keys/KeyMapper.h" alt="" coords="1293,87,1445,114"/>
+<area shape="rect" id="node3" href="$_master_notifier_8cpp.html" title="src/comms/MasterNotifier.cpp" alt="" coords="5,259,201,285"/>
+<area shape="rect" id="node4" href="$main_8cpp.html" title="src/main.cpp" alt="" coords="632,259,729,285"/>
+<area shape="rect" id="node6" href="$_u_s_b_communicator_8cpp.html" title="src/comms/USBCommunicator.cpp" alt="" coords="270,177,497,203"/>
+<area shape="rect" id="node8" href="$_hardware_controller_8cpp.html" title="src/device/HardwareController.cpp" alt="" coords="571,177,790,203"/>
+<area shape="rect" id="node10" href="$_button_debouncer_8cpp.html" title="src/hardware/ButtonDebouncer.cpp" alt="" coords="865,177,1089,203"/>
+<area shape="rect" id="node12" href="$_button_delta_detector_8cpp.html" title="src/hardware/ButtonDelta\lDetector.cpp" alt="" coords="1163,169,1331,211"/>
+<area shape="rect" id="node14" href="$_key_mapper_8cpp.html" title="src/keys/KeyMapper.cpp" alt="" coords="1407,177,1573,203"/>
+</map>

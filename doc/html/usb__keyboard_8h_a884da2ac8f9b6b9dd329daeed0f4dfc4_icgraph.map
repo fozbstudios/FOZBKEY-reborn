@@ -1,0 +1,4 @@
+<map id="usb_configured" name="usb_configured">
+<area shape="rect" id="node2" href="$class_u_s_b_communicator.html#a81522e18e95d27623f18f851e8008a9e" title="USBCommunicator::is\l_connected" alt="" coords="164,5,315,47"/>
+<area shape="rect" id="node3" href="$class_master_notifier.html#a52e06d82e96f0895020d7816b58c19cd" title="MasterNotifier::MasterNotifier" alt="" coords="363,13,555,39"/>
+</map>

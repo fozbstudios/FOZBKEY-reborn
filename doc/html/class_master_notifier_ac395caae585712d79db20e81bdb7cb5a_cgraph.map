@@ -1,0 +1,11 @@
+<map id="MasterNotifier::notify" name="MasterNotifier::notify">
+<area shape="rect" id="node2" href="$class_u_s_b_communicator.html#aaf280cb21a711cc0e467aeca92bd641f" title="USBCommunicator::update" alt="" coords="196,111,376,137"/>
+<area shape="rect" id="node3" href="$class_u_s_b_communicator.html#a9198f2af5af94ff6a99f4e03c071b5e4" title="USBCommunicator::send\l_key_event" alt="" coords="424,74,593,115"/>
+<area shape="rect" id="node10" href="$usb__keyboard_8c.html#a0d455838fba2d2422077884e22e11915" title="usb_keyboard_send" alt="" coords="439,140,578,167"/>
+<area shape="rect" id="node4" href="$usb__keyboard_8c.html#ad2873d2acd1b50480db8528e087eb9a1" title="usb_press" alt="" coords="646,56,729,83"/>
+<area shape="rect" id="node7" href="$usb__keyboard_8c.html#af2fec93142d1f3bf0007d1de07820fae" title="usb_release" alt="" coords="641,107,733,133"/>
+<area shape="rect" id="node5" href="$usb__keyboard_8c.html#ab5345b65483f6516b2269cc9209df3e0" title="usb_press_modifier_key" alt="" coords="789,5,951,32"/>
+<area shape="rect" id="node6" href="$usb__keyboard_8c.html#aaf987ca18572ae45ec25ca9016ff868d" title="usb_press_standard_key" alt="" coords="787,56,953,83"/>
+<area shape="rect" id="node8" href="$usb__keyboard_8c.html#ae7e26d2a2e31880fcfe3da2f7b2826ad" title="usb_release_modifier_key" alt="" coords="783,107,957,133"/>
+<area shape="rect" id="node9" href="$usb__keyboard_8c.html#a73690a8e0a46b932cb217270d8ab3b6c" title="usb_release_standard_key" alt="" coords="781,157,959,184"/>
+</map>

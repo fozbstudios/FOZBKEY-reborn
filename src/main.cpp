@@ -3,8 +3,8 @@
 #include "hardware/ButtonDeltaDetector.h"
 #include "device/HardwareController.h"
 #include "comms/MasterNotifier.h"
-#include "comms/SlaveNotifier.h"
-#include "comms/I2CCommunicator.h"
+// #include "comms/SlaveNotifier.h"
+// #include "comms/I2CCommunicator.h"
 #include "comms/USBCommunicator.h"
 #include "keys/KeyMapper.h"
 extern "C"{
@@ -19,7 +19,7 @@ int main()
 	CPU_PRESCALE(0);
     _delay_ms(5); //Give everything time to power up
     
-    I2CCommunicator i2c_communicator; //Start I2C in slave mode
+ //   I2CCommunicator i2c_communicator; //Start I2C in slave mode
     USBCommunicator usb_communicator; //Start USB hardware
     
     //Holds information from the master about the state of the indicator LEDs
@@ -33,9 +33,10 @@ int main()
     //Maps physical button deltas to USB key deltas. This is where to look if you want to change the key layout.
     KeyMapper               key_mapper;
     //Talks to the computer over USB or the masterboard over I2C. Constructor hangs until a master is found (either USB or I2C)
-    MasterNotifier          master(usb_communicator, i2c_communicator);
+    // MasterNotifier          master(usb_communicator, i2c_communicator);
+    MasterNotifier          master(usb_communicator);
     //Represents the slave, if one exists. Acts as a dummy slave otherwise. Tries to connect to slave during construction.
-    SlaveNotifier           slave(i2c_communicator);
+//    SlaveNotifier           slave(i2c_communicator);
     
     
     for(;;){
@@ -45,11 +46,12 @@ int main()
         KeysDelta key_changes = key_mapper.resolve(button_changes);
         
         //If we don't have a slave, this returns a KeysDelta full of zeros
-        KeysDelta slave_key_changes = slave.update(led_status); 
+        // KeysDelta slave_key_changes = slave.update(led_status); 
         
         //Sends all key press/release events to the USB or I2C master and 
         //returns the state of the keyboard LEDs, as reported by the master
         led_status = master.notify(key_changes, slave_key_changes); 
+        led_status = master.notify(key_changes); 
     }
     return 0;
 }

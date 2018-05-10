@@ -1,6 +1,10 @@
 //  HardwareController.h
-//  Created by Will Yager on 7/3/13.
-//  Copyright (c) 2013 Will Yager. All rights reserved.
+
+// Copyright 2013-2014 Will Yager.
+// All rights reserved.
+// 
+// Modified 2018 Nicholas Kirkpatrick
+// 
 //  Controls the various non-communication hardware peripherals
 
 #ifndef __keyboard2__HardwareController__

@@ -1,0 +1,5 @@
+<map id="USBCommunicator::send_key_event" name="USBCommunicator::send_key_event">
+<area shape="rect" id="node2" href="$class_u_s_b_communicator.html#aaf280cb21a711cc0e467aeca92bd641f" title="USBCommunicator::update" alt="" coords="223,13,403,39"/>
+<area shape="rect" id="node3" href="$class_master_notifier.html#ac395caae585712d79db20e81bdb7cb5a" title="MasterNotifier::notify" alt="" coords="451,13,593,39"/>
+<area shape="rect" id="node4" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="641,13,692,39"/>
+</map>

@@ -1,6 +1,7 @@
 Copyright 2013-2014 Will Yager.
-
 All rights reserved.
+
+Modified 2018 Nicholas Kirkpatrick
 
 Redistribution and use of the software and schematics or any derivative works
 are permitted provided that the following conditions are met:
